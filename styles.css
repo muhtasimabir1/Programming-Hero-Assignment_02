@@ -147,3 +147,181 @@ body {
   color: rgba(0, 0, 0, 0.6);
   line-height: 1.8;
 }
+
+.latest-deal {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.latest-deal h1 span {
+  color: #e95a08;
+}
+
+.latest-deal p {
+  max-width: 700px;
+  margin: 0 auto;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.offer {
+  display: flex;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+.right-offer {
+  position: relative;
+  height: 410px;
+}
+
+.right-offer img {
+  border-radius: 15px;
+  height: 100%;         
+  width: 100%;
+  object-fit: cover;    
+  border-radius: 15px;
+}
+
+.right-offer h2 {
+  position: absolute;
+
+  font-size: bold;
+  font-weight: 800;
+  color: rgb(253, 253, 253);
+  top: 37%;
+  right: 250px;
+  z-index: 1;
+  text-align: center;
+}
+
+.offer-1 {
+  position: relative;
+}
+
+.offer-1 h2 {
+  position: absolute;
+
+  font-size: bold;
+  font-weight: 500;
+  color: rgb(253, 253, 253);
+  top: 50px;
+  right: 39px;
+
+  z-index: 1;
+  text-align: center;
+}
+
+.offer-2 {
+  position: relative;
+}
+
+.offer-2 h2 {
+  position: absolute;
+
+  font-size: bold;
+  font-weight: 500;
+  color: rgb(253, 253, 253);
+  top: 50px;
+  right: 50px;
+  text-align: center;
+  z-index: 1;
+}
+
+.sub-container {
+  position: relative;
+  margin-top: 80px;
+  text-align: center;
+}
+
+.input-img img {
+  width: 100%;
+  height: auto;
+}
+
+.submit {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  color: white;
+}
+
+.submit input[type="text"] {
+  padding: 10px;
+  width: 250px;
+  border: none;
+}
+
+.submit input[type="button"] {
+  padding: 10px 20px;
+  background: #e95a08;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+
+  margin-top: 50px;
+}
+
+.div-b a {
+  text-decoration: none;
+
+  color: rgb(107, 114, 128);
+
+  font-size: 16px;
+  font-weight: 400;
+  height: auto;
+  margin-left: 30px;
+}
+.div-b {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.div-c {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.div-c a {
+  text-wrap: wrap;
+  text-decoration: none;
+
+  color: rgb(107, 114, 128);
+
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.div-a {
+  color: rgb(107, 114, 128);
+
+  font-size: 16px;
+  font-weight: 400;
+}
+.div-d {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 768px) {
+  .banner {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .store-shop {
+    flex-direction: column;
+  }
+
+  .submit {
+    top: 20%;
+  }
+}
